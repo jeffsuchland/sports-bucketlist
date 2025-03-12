@@ -9,8 +9,8 @@ const mockExperiences = [
     recommendations: "Book early, arrive a few days before to enjoy the festivities",
     createdBy: "creator1",
     likes: 245,
-    imageUrl: "https://images.unsplash.com/photo-1642024728966-7492bae9bb60?w=800&auto=format&fit=crop",
-    imageFallback: "https://images.unsplash.com/photo-1608395463944-050fb5c69888?w=800&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1484482340112-e1e2682b4856?w=800&auto=format&fit=crop",
+    imageFallback: "https://images.unsplash.com/photo-1495563125611-fa99f1c6485d?w=800&auto=format&fit=crop",
     likedBy: [],
     comments: [
       { id: 1, user: "vegas_local", text: "The atmosphere is electric during Super Bowl week!" }
@@ -26,8 +26,8 @@ const mockExperiences = [
     recommendations: "Don't forget to dress up and wear a fancy hat!",
     createdBy: "creator1",
     likes: 189,
-    imageUrl: "https://images.unsplash.com/photo-1582546338780-c9c48ab14c54?w=800&auto=format&fit=crop",
-    imageFallback: "https://images.unsplash.com/photo-1565794492875-a26b9e4d0d7c?w=800&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1499036197647-0dae3b1b49d3?w=800&auto=format&fit=crop",
+    imageFallback: "https://images.unsplash.com/photo-1534297635766-a262cdcb8ee4?w=800&auto=format&fit=crop",
     likedBy: [],
     comments: [
       { id: 5, user: "mint_julep", text: "The mint juleps are a must-try!" }
@@ -43,8 +43,8 @@ const mockExperiences = [
     recommendations: "Try to get tickets for a potential championship-clinching game",
     createdBy: "creator2",
     likes: 156,
-    imageUrl: "https://images.unsplash.com/photo-1504450758481-7338eba7524a?w=800&auto=format&fit=crop",
-    imageFallback: "https://images.unsplash.com/photo-1518650810337-7b423ca237d9?w=800&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&auto=format&fit=crop",
+    imageFallback: "https://images.unsplash.com/photo-1504450758481-7338eba7524a?w=800&auto=format&fit=crop",
     likedBy: [],
     comments: [
       { id: 8, user: "courtside", text: "Nothing beats playoff basketball!" }
@@ -60,8 +60,8 @@ const mockExperiences = [
     recommendations: "Visit during playoff season for best atmosphere",
     createdBy: "creator1",
     likes: 203,
-    imageUrl: "https://images.unsplash.com/photo-1566577134770-3d85bb3a9cc4?w=800&auto=format&fit=crop",
-    imageFallback: "https://images.unsplash.com/photo-1562212262-8295f9296772?w=800&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1508163223045-1880bc36e222?w=800&auto=format&fit=crop",
+    imageFallback: "https://images.unsplash.com/photo-1494809610410-160faaed4de0?w=800&auto=format&fit=crop",
     likedBy: [],
     comments: [
       { id: 10, user: "sox_fan", text: "Nothing beats October baseball at Fenway!" }
@@ -77,8 +77,8 @@ const mockExperiences = [
     recommendations: "Try the famous pimento cheese sandwich",
     createdBy: "creator2",
     likes: 178,
-    imageUrl: "https://images.unsplash.com/photo-1587174486073-ae5e3bc08eb9?w=800&auto=format&fit=crop",
-    imageFallback: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=800&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=800&auto=format&fit=crop",
+    imageFallback: "https://images.unsplash.com/photo-1587174486073-ae5e3bc08eb9?w=800&auto=format&fit=crop",
     likedBy: [],
     comments: [
       { id: 15, user: "par_4", text: "Amen Corner is even more beautiful in person!" }
@@ -94,8 +94,8 @@ const mockExperiences = [
     recommendations: "Book well in advance and enjoy the yacht parties and casino culture",
     createdBy: "creator2",
     likes: 230,
-    imageUrl: "https://images.unsplash.com/photo-1589534965343-0f3c7e044d1f?w=800&auto=format&fit=crop",
-    imageFallback: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=800&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1504817343863-5092a923803e?w=800&auto=format&fit=crop",
+    imageFallback: "https://images.unsplash.com/photo-1541773367433-99e1a9462549?w=800&auto=format&fit=crop",
     likedBy: [],
     comments: [
       { id: 25, user: "f1_fan", text: "The atmosphere in Monaco is unbelievable!" }
@@ -112,7 +112,7 @@ const mockExperiences = [
     createdBy: "creator1",
     likes: 275,
     imageUrl: "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=800&auto=format&fit=crop",
-    imageFallback: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&auto=format&fit=crop",
+    imageFallback: "https://images.unsplash.com/photo-1577223625816-7546f13df25d?w=800&auto=format&fit=crop",
     likedBy: [],
     comments: [
       { id: 20, user: "football_fan", text: "The Champions League final is pure magic!" }
@@ -128,8 +128,8 @@ const mockExperiences = [
     recommendations: "Try the traditional strawberries and cream, arrive early for good seats",
     createdBy: "creator2",
     likes: 195,
-    imageUrl: "https://images.unsplash.com/photo-1531315630201-bb15abeb1653?w=800&auto=format&fit=crop",
-    imageFallback: "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=800&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?w=800&auto=format&fit=crop",
+    imageFallback: "https://images.unsplash.com/photo-1531315630201-bb15abeb1653?w=800&auto=format&fit=crop",
     likedBy: [],
     comments: [
       { id: 30, user: "tennis_fan", text: "Centre Court has an atmosphere like no other!" }
@@ -145,8 +145,8 @@ const mockExperiences = [
     recommendations: "Arrive early to secure a good viewing spot along the route",
     createdBy: "creator1",
     likes: 160,
-    imageUrl: "https://images.unsplash.com/photo-1563228965-0219b22e1180?w=800&auto=format&fit=crop",
-    imageFallback: "https://images.unsplash.com/photo-1549723223-1c998f41f631?w=800&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800&auto=format&fit=crop",
+    imageFallback: "https://images.unsplash.com/photo-1530143584546-02191bc84eb5?w=800&auto=format&fit=crop",
     likedBy: [],
     comments: [
       { id: 35, user: "cycling_fan", text: "The energy of the peloton is incredible!" }
@@ -162,8 +162,8 @@ const mockExperiences = [
     recommendations: "Immerse yourself in the friendly rivalry and camaraderie of rugby fans",
     createdBy: "creator2",
     likes: 180,
-    imageUrl: "https://images.unsplash.com/photo-1571497196627-2c972f254530?w=800&auto=format&fit=crop",
-    imageFallback: "https://images.unsplash.com/photo-1575825424773-41c11c59c5d1?w=800&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1628779238951-be2c9f2a59f4?w=800&auto=format&fit=crop",
+    imageFallback: "https://images.unsplash.com/photo-1511067007398-7e4b90cfa4bc?w=800&auto=format&fit=crop",
     likedBy: [],
     comments: [
       { id: 40, user: "rugby_enthusiast", text: "The passion of rugby fans is unmatched!" }
@@ -179,8 +179,8 @@ const mockExperiences = [
     recommendations: "Experience the electric atmosphere of an IPL match and try local street food",
     createdBy: "creator1",
     likes: 210,
-    imageUrl: "https://images.unsplash.com/photo-1629835848599-4d3f566a011a?w=800&auto=format&fit=crop",
-    imageFallback: "https://images.unsplash.com/photo-1579547621415-a0774a89961f?w=800&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=800&auto=format&fit=crop",
+    imageFallback: "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=800&auto=format&fit=crop",
     likedBy: [],
     comments: [
       { id: 45, user: "cricket_lover", text: "The IPL is a spectacle of cricket and entertainment!" }
@@ -196,8 +196,8 @@ const mockExperiences = [
     recommendations: "Check out the festival village for interactive experiences and merchandise",
     createdBy: "creator2",
     likes: 190,
-    imageUrl: "https://images.unsplash.com/photo-1596752086399-56365e90d0b8?w=800&auto=format&fit=crop",
-    imageFallback: "https://images.unsplash.com/photo-1559981846-5c5f85023907?w=800&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1522898467493-49726bf28798?w=800&auto=format&fit=crop",
+    imageFallback: "https://images.unsplash.com/photo-1483721310020-03333e577078?w=800&auto=format&fit=crop",
     likedBy: [],
     comments: [
       { id: 50, user: "extreme_fan", text: "The X Games is a showcase of incredible talent and daring feats!" }
@@ -213,8 +213,8 @@ const mockExperiences = [
     recommendations: "Enjoy the vibrant atmosphere of Melbourne and explore the city's laneway cafes",
     createdBy: "creator1",
     likes: 175,
-    imageUrl: "https://images.unsplash.com/photo-1549806489-3286f05952c4?w=800&auto=format&fit=crop",
-    imageFallback: "https://images.unsplash.com/photo-1582253686311-570a2a4b5247?w=800&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1623094646025-9f980cc4a389?w=800&auto=format&fit=crop",
+    imageFallback: "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=800&auto=format&fit=crop",
     likedBy: [],
     comments: [
       { id: 55, user: "tennis_downunder", text: "The Australian Open is a must-see for tennis fans!" }
@@ -230,8 +230,8 @@ const mockExperiences = [
     recommendations: "Experience the electric atmosphere of a packed NHL arena during the playoffs",
     createdBy: "creator2",
     likes: 200,
-    imageUrl: "https://images.unsplash.com/photo-1515703407324-5f753afd8be8?w=800&auto=format&fit=crop",
-    imageFallback: "https://images.unsplash.com/photo-1560693529-52e079713c72?w=800&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1580992664064-1a4b7aa44dca?w=800&auto=format&fit=crop",
+    imageFallback: "https://images.unsplash.com/photo-1515703407324-5f753afd8be8?w=800&auto=format&fit=crop",
     likedBy: [],
     comments: [
       { id: 60, user: "hockey_fanatic", text: "Nothing beats playoff hockey!" }
@@ -247,8 +247,8 @@ const mockExperiences = [
     recommendations: "Explore the paddock and get up close to the bikes and riders",
     createdBy: "creator1",
     likes: 185,
-    imageUrl: "https://images.unsplash.com/photo-1583216859599-4d6f85966601?w=800&auto=format&fit=crop",
-    imageFallback: "https://images.unsplash.com/photo-1551833634-118e692c8188?w=800&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1616939814109-ea80c3fdcc2a?w=800&auto=format&fit=crop",
+    imageFallback: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=800&auto=format&fit=crop",
     likedBy: [],
     comments: [
       { id: 65, user: "moto_enthusiast", text: "The speed and skill of MotoGP riders is incredible!" }
@@ -264,8 +264,8 @@ const mockExperiences = [
     recommendations: "Immerse yourself in the tailgating culture and the electric atmosphere of the game",
     createdBy: "creator2",
     likes: 225,
-    imageUrl: "https://images.unsplash.com/photo-1610738615462-87588147d10e?w=800&auto=format&fit=crop",
-    imageFallback: "https://images.unsplash.com/photo-1560184478-f76c3f683e87?w=800&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1508163223045-1880bc36e222?w=800&auto=format&fit=crop",
+    imageFallback: "https://images.unsplash.com/photo-1494809610410-160faaed4de0?w=800&auto=format&fit=crop",
     likedBy: [],
     comments: [
       { id: 70, user: "cfb_fan", text: "The college football championship is an unforgettable experience!" }
@@ -281,8 +281,8 @@ const mockExperiences = [
     recommendations: "Book well in advance and plan to stay for multiple Olympic events",
     createdBy: "creator1",
     likes: 250,
-    imageUrl: "https://images.unsplash.com/photo-1569517282132-25d22f4573e6?w=800&auto=format&fit=crop",
-    imageFallback: "https://images.unsplash.com/photo-1560693529-52e079713c72?w=800&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800&auto=format&fit=crop",
+    imageFallback: "https://images.unsplash.com/photo-1519999482648-25049ddd37b1?w=800&auto=format&fit=crop",
     likedBy: [],
     comments: [
       { id: 75, user: "olympic_fan", text: "The opening ceremony is a celebration of sport and culture!" }
@@ -298,8 +298,8 @@ const mockExperiences = [
     recommendations: "Immerse yourself in the pre-race festivities and experience the thrill of stock car racing",
     createdBy: "creator2",
     likes: 205,
-    imageUrl: "https://images.unsplash.com/photo-1587310574706-e0f31a29938b?w=800&auto=format&fit=crop",
-    imageFallback: "https://images.unsplash.com/photo-1612053073998-3f5f3752e25d?w=800&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1541968047768-5c6942dcc12e?w=800&auto=format&fit=crop",
+    imageFallback: "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=800&auto=format&fit=crop",
     likedBy: [],
     comments: [
       { id: 80, user: "racing_fan", text: "The Daytona 500 is a must-see for any racing fan!" }
@@ -315,8 +315,8 @@ const mockExperiences = [
     recommendations: "Walk the course, witness the difficult pin placements, and enjoy the high level of play",
     createdBy: "creator1",
     likes: 190,
-    imageUrl: "https://images.unsplash.com/photo-1593444641689-d1015f83c078?w=800&auto=format&fit=crop",
-    imageFallback: "https://images.unsplash.com/photo-1598506509988-51846b025f16?w=800&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=800&auto=format&fit=crop",
+    imageFallback: "https://images.unsplash.com/photo-1587174486073-ae5e3bc08eb9?w=800&auto=format&fit=crop",
     likedBy: [],
     comments: [
       { id: 85, user: "golf_fan", text: "The US Open is a true test of skill and mental fortitude!" }
@@ -332,8 +332,8 @@ const mockExperiences = [
     recommendations: "Book well in advance and immerse yourself in the host nation's culture",
     createdBy: "creator2",
     likes: 300,
-    imageUrl: "https://images.unsplash.com/photo-1518091043644-c1d4457512c6?w=800&auto=format&fit=crop",
-    imageFallback: "https://images.unsplash.com/photo-1529900748604-07564a03e7a6?w=800&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=800&auto=format&fit=crop",
+    imageFallback: "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=800&auto=format&fit=crop",
     likedBy: [],
     comments: [
       { id: 90, user: "football_fanatic", text: "The World Cup final is the ultimate sporting event!" }

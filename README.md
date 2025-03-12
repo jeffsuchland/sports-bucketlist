@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+# Sports Bucket List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based web application for creating and sharing sports experiences bucket lists. Users can create, view, and interact with sports experiences, add comments, and manage their bucket lists.
+
+## Features
+
+- Create and share sports experiences with details (accommodations, costs, recommendations)
+- Comment on experiences
+- Like system with sorting by popularity
+- Dark mode / light mode support
+- User authentication and role-based access
+- Responsive design with Material-UI
+
+## Local Development
+
+1. Clone the repository:
+```bash
+git clone <your-repo-url>
+cd sports-bucketlist
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm start
+```
+
+The app will run in development mode at [http://localhost:3000](http://localhost:3000).
+
+## Deployment to Vercel
+
+### Option 1: Automatic Deployment (Recommended)
+
+1. Push your code to a GitHub repository
+
+2. Visit [Vercel](https://vercel.com) and sign in with GitHub
+
+3. Click "Import Project" and select your repository
+
+4. Select "Create React App" as the framework preset
+
+5. Click "Deploy"
+
+### Option 2: Manual Deployment
+
+1. Install the Vercel CLI:
+```bash
+npm install -g vercel
+```
+
+2. Login to Vercel:
+```bash
+vercel login
+```
+
+3. Deploy the project:
+```bash
+vercel
+```
+
+4. For production deployment:
+```bash
+vercel --prod
+```
+
+## Environment Setup
+
+The project uses environment variables for configuration. Create a `.env` file in the root directory:
+
+```env
+REACT_APP_API_URL=http://localhost:3000 # Local development
+# REACT_APP_API_URL=https://your-production-url.vercel.app # Production
+```
+
+## Tech Stack
+
+- React (JavaScript)
+- Material-UI for components
+- React Router for navigation
+- localStorage for data persistence (future: Supabase)
+- Vercel for hosting
 
 ## Available Scripts
 
-In the project directory, you can run:
+- `npm start` - Run in development mode
+- `npm test` - Run tests
+- `npm run build` - Build for production
+- `npm run eject` - Eject from Create React App
 
-### `npm start`
+## Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+sports-bucketlist/
+├── public/
+├── src/
+│   ├── components/     # React components
+│   ├── contexts/       # Context providers
+│   ├── utils/          # Utility functions
+│   ├── App.js          # Main app component
+│   └── index.js        # Entry point
+├── .env               # Environment variables
+├── package.json       # Dependencies and scripts
+└── vercel.json        # Vercel configuration
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Contributing
 
-### `npm test`
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## License
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT License - feel free to use this project for your own purposes.

@@ -650,3 +650,164 @@ select:focus {
   outline: none;
   border-color: var(--primary-color);
 }
+
+@media (max-width: 768px) {
+  .App {
+    padding: 1rem;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .header h1 {
+    font-size: 1.75rem;
+  }
+
+  .search-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .search-input {
+    max-width: 100%;
+  }
+
+  .experiences-grid {
+    gap: 2rem 1rem;
+    grid-template-columns: 1fr;
+  }
+
+  .experience-card {
+    min-height: 200px;
+  }
+
+  .experience-card__image {
+    height: 150px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .add-experience-form {
+    padding: 1rem;
+  }
+
+  .form-grid input,
+  .form-grid textarea {
+    font-size: 16px; /* Prevents zoom on iOS */
+    padding: 0.5rem;
+  }
+
+  .experience-card__content {
+    padding: 1rem;
+  }
+
+  .experience-card__title {
+    font-size: 1.25rem;
+  }
+
+  .experience-card__description {
+    font-size: 0.875rem;
+  }
+
+  .experience-card__meta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .App {
+    padding: 0.75rem;
+  }
+
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .experience-card__image {
+    height: 120px;
+  }
+
+  .experience-card__content {
+    padding: 0.75rem;
+  }
+
+  .button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+
+  .stats-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .stat-item {
+    padding: 0.75rem;
+  }
+}
+
+/* Touch device optimizations */
+@media (hover: none) {
+  .experience-card:hover {
+    transform: none;
+  }
+
+  .experience-card:hover .experience-card__image img {
+    transform: none;
+  }
+
+  .button:hover {
+    transform: none;
+  }
+
+  /* Increase touch targets for better mobile usability */
+  .button,
+  .experience-card__actions button,
+  .nav-link {
+    min-height: 44px;
+    padding: 0.75rem 1rem;
+  }
+}
+
+/* Ensure buttons and interactive elements have proper spacing on touch devices */
+.button,
+.experience-card__actions button,
+.nav-link {
+  margin: 0.25rem 0;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Add smooth scrolling for a better mobile experience */
+html {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Optimize form elements for mobile */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Prevent text overflow */
+.experience-card__title,
+.experience-card__description,
+.experience-card__location {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
